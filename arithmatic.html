@@ -1,0 +1,69 @@
+<html>
+<head>
+<script>
+function sum()
+{
+
+var input1,input2,result;
+input1=f1.data1.value;
+input1=parseInt(input1);
+input2=f1.data2.value;
+input2=parseInt(input2);
+result=input1+input2;
+alert("SUM IS-->"+result);
+result=input1-input2;
+alert("DIFFERENCE IS-->"+result);
+result=input1*input2;
+alert("MULTIPLICATION IS-->"+result);
+result=input1/input2;
+
+input1=parseInt(input1);
+input2=f1.data2.value;
+input2=parseInt(input2);
+result=input1-input2;
+alert("DIFFERENCE IS-->"+result);
+}
+function mul()
+{
+var input1,input2,result;
+input1=f1.data1.value;
+input1=parseInt(input1);
+input2=f1.data2.value;
+input2=parseInt(input2);
+result=input1*input2;
+alert("MULTIPLICATION IS-->"+result);
+}
+function div()
+{
+var input1,input2,result;
+input1=f1.data1.value;
+input1=parseInt(input1);
+input2=f1.data2.value;
+input2=parseInt(input2);
+result=input1/input2;
+alert("DIVISION IS-->"+result);
+}
+
+</script>
+
+</head>
+<body>
+<form name = "f1">
+<label>
+FIRST No
+</label>
+<input type="text" name="data1" >
+
+<br><br>
+<label>
+SECOND No
+</label>
+<input type="text" name="data2" >
+<br><br>
+<input type="submit" value="ADDITION" onclick="sum()">
+<input type="submit" value="SUBTRACTION" onclick="sum()">
+<input type="submit" value="MULTIPLICATION" onclick="sum()">
+<input type="submit" value="DIVISION" onclick="sum()">
+</form>
+</body>
+</html>
